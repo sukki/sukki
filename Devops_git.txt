@@ -1,0 +1,38 @@
+https://www.simplilearn.com/tutorials/devops-tutorial/why-devops 
+
+git
+
+https://www.geeksforgeeks.org/working-on-git-bash/#:~:text=Step%201%3A%20Go%20to%20Github,local%20repository%20will%20be%20pushed.&text=Step%203%3A%20Push%20the%20changes%20in%20your%20local%20repository%20to%20GitHub.&text=Here%20the%20files%20have%20been,master%20branch%20of%20your%20repository.
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ git config --global user.name "sukki"
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ git config --global user.email "kommirisukanya@gmail.comx"
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ git config --global --list
+user.name=sukki
+user.email=kommirisukanya@gmail.comx
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ cd sukki
+bash: cd: sukki: No such file or directory
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ git clone https://github.com/sukki/jen.git
+Cloning into 'jen'...
+remote: Enumerating objects: 62, done.
+remote: Total 62 (delta 0), reused 0 (delta 0), pack-reused 62
+Receiving objects: 100% (62/62), 3.71 MiB | 2.17 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ cd sukki
+bash: cd: sukki: No such file or directory
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~ (master)
+$ cd jen
+
+sukanya.kommiri@HDC4-L-2144XPX MINGW64 ~/jen (master)
+$
